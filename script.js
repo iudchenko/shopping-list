@@ -12,7 +12,7 @@ function addItem(e) {
     return;
   }
 
-  //Create list item
+  //Create list item.
   const li = document.createElement("li");
   li.appendChild(document.createTextNode(newItem));
 
